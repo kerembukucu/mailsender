@@ -1,0 +1,48 @@
+{
+  "email_settings": {
+    "imap_server": "imap.gmail.com",
+    "email_address": "your_email@gmail.com",
+    "password": "your_gmail_app_password_here",
+    "check_interval": 30
+  },
+  "whatsapp_settings": {
+    "phone_number": "+90XXXXXXXXXX",
+    "enabled": true,
+    "throttle_seconds": 300
+  },
+  "keyword_tracking": {
+    "enabled": true,
+    "keywords": ["örnek", "anahtar", "kelime"],
+    "save_folder": "tracked_keyword_mails"
+  },
+  "sender_tracking": {
+    "enabled": true,
+    "tracked_senders": {
+      "example@example.com": {
+        "name": "Örnek Gönderici <example@example.com>",
+        "added_at": "2025-11-01T20:00:00",
+        "sample_subject": "Örnek mail konusu"
+      }
+    },
+    "save_folder": "tracked_sender_mails"
+  },
+  "reply_tracking": {
+    "enabled": true,
+    "tracked_message_ids": {
+      "<unique-message-id@gmail.com>": {
+        "subject": "İş Teklifi Hakkında",
+        "to": "firma@example.com",
+        "date": "2025-11-01T15:30:00",
+        "added_at": "2025-11-01T15:30:00"
+      }
+    },
+    "save_folder": "tracked_replies"
+  },
+  "_comments": {
+    "info": "Bu dosya tüm mail takip ayarlarını içerir",
+    "sender_tracking": "tracked_senders kısmına takip edilecek göndericileri ekleyin",
+    "reply_tracking": "tracked_message_ids kısmına takip edilecek mail Message-ID'lerini ekleyin",
+    "keyword_tracking": "keywords listesine anahtar kelimeleri ekleyin"
+  }
+}
+

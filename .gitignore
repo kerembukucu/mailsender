@@ -1,0 +1,36 @@
+# Config dosyası (hassas bilgiler içerir)
+mail_tracking_config.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Mail tracking klasörleri (kişisel mail verileri)
+tracked_keyword_mails/
+tracked_sender_mails/
+tracked_replies/
+yapi_kredi_mails/
+
+# JSON tracking dosyaları
+tracked_senders.json
+
+# PyWhatKit veritabanı
+PyWhatKit_DB.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+venv/
+env/
